@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #444;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.container {
+  border: 5px solid #000;
+  width: 768px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.header-primary {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #b7b7b7;
+  padding: 20px;
+}
+
+.main-cost {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-shipping {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.main-description {
+  margin: 10px 0;
+}
+
+.info:link {
+  color: #000;
+  margin: 10px 0;
+}
+
+.info:visited {
+  color: #000;
+}
+
+.info:hover {
+  text-decoration: none;
+}
+
+.info:active {
+  text-decoration: none;
+}
+
+.details-header {
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+
+.details-list {
+  margin: 20px;
+}
+
+.card-add {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: 5px solid #000;
+  cursor: pointer;
+}
+
+.card-add:hover {
+  background-color: #fff;
+  color: #000;
+}
